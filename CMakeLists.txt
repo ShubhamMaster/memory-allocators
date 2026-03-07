@@ -1,6 +1,8 @@
 cmake_minimum_required (VERSION 3.5)
 project (memory-allocators LANGUAGES CXX)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 set(SOURCES src/Allocator.cpp
    	src/CAllocator.cpp
    	src/LinearAllocator.cpp
